@@ -1,4 +1,8 @@
 #!/usr/bin/env nextflow
+
+//Run SCENIC 100x
+//Adapted from Wouters et al (2020)
+
 println( "\n***\nParameters in use:")
 params.each { println "--${it}" }
 println( "\n")
